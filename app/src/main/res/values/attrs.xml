@@ -2,6 +2,20 @@
 <resources>
     <declare-styleable name="ClockView">
         <attr name="support_drag" format="boolean" />
-        <attr name="number_size" format="dimension"/>
+        <attr name="number_size" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="FoldTextView">
+        <attr name="gravity_foldText" format="integer"></attr>
+        <attr name="text_fold" format="string"></attr>
+        <attr name="text_unfold" format="string"></attr>
+        <attr name="fold_color" format="string|color"></attr>
+        <attr name="fold_line" format="integer"></attr>
+        <attr name="fold_size" format="dimension"></attr>
+        <attr name="margin_fold_left" format="dimension"></attr>
+        <attr name="margin_fold_right" format="dimension"></attr>
+        <attr name="margin_fold_top" format="dimension"></attr>
+        <attr name="margin_fold_bottom" format="dimension"></attr>
+        <attr name="margins_fold" format="dimension"></attr>
     </declare-styleable>
 </resources>

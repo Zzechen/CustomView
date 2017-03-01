@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">CustomView</string>
+    <string name="long_text">和普通的Thread相比，普通的Thread在run方法中执行一个耗时任务，而HandlerThread在内部创建一个消息队列，外界需要通过Handler的消息方式来通知HandlerThread执行一个具体的任务。HanderThread在Android中的使用场景是IntentService。由于HandlerThread的run方法是一个无线循环，因此当明确不需要再使用HandlerThread时，可以通过quit或者quitSafely方法来终止线程的执行。</string>
 </resources>
