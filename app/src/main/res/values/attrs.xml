@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ClockView">
+        <attr name="support_drag" format="boolean" />
+        <attr name="number_size" format="dimension"/>
+    </declare-styleable>
+</resources>
